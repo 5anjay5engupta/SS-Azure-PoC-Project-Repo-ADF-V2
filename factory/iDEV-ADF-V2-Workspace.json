@@ -1,0 +1,13 @@
+{
+	"name": "iDEV-ADF-V2-Workspace",
+	"location": "eastus",
+	"identity": {
+		"type": "UserAssigned",
+		"userAssignedIdentities": {
+			"/subscriptions/ca9793a6-40f0-4bbf-9783-667771008705/resourcegroups/iDEV-Resource-Group/providers/Microsoft.ManagedIdentity/userAssignedIdentities/iDEV-ADF-V2-ADLS-Gen2-User-Assigned-Managed-Identity": {
+				"clientId": "5fd4b592-8263-4d0f-8ecf-dc8930620b22",
+				"principalId": "16c123b2-a985-438b-a39f-0633f5339050"
+			}
+		}
+	}
+}
