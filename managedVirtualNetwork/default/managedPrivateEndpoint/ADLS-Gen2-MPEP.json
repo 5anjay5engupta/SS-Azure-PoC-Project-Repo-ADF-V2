@@ -1,0 +1,7 @@
+{
+	"name": "ADLS-Gen2-MPEP",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/ca9793a6-40f0-4bbf-9783-667771008705/resourceGroups/iDEV-Resource-Group/providers/Microsoft.Storage/storageAccounts/idevstorageaccount",
+		"groupId": "dfs"
+	}
+}

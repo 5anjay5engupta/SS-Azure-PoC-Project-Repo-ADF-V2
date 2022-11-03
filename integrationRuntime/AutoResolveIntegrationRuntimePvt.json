@@ -1,0 +1,28 @@
+{
+	"name": "AutoResolveIntegrationRuntimePvt",
+	"properties": {
+		"type": "Managed",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "East US",
+				"dataFlowProperties": {
+					"computeType": "General",
+					"coreCount": 8,
+					"timeToLive": 0,
+					"cleanup": true
+				},
+				"copyComputeScaleProperties": {
+					"dataIntegrationUnit": 16,
+					"timeToLive": 5
+				},
+				"pipelineExternalComputeScaleProperties": {
+					"timeToLive": 60
+				}
+			}
+		},
+		"managedVirtualNetwork": {
+			"type": "ManagedVirtualNetworkReference",
+			"referenceName": "default"
+		}
+	}
+}
